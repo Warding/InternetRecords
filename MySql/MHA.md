@@ -22,7 +22,7 @@
   
 #### MHA的实现原理
 ***
-![](https://github.com/Warding/InternetRecords/blob/master/MySql/MHA01.png)
+![](https://huaban.com/pins/3263072879/)
 #### 概念解析
 *** 
 1. HA（High Availability)
