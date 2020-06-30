@@ -38,10 +38,11 @@
 ### 总结
 ***
   1. **MHA 自动化切换MySql主备切换的过程，程序化过程，保证故障切换的速度（一般自动切换过程可在30s内完成，不超过1分钟），从而提高业务系统的高可用性**
-  2. **MHA 的manage node服务监控框架，方便进行MySQL的水平扩展高可用性保证，面向后续集群化管理能显著提高运维管理效率**
+  2. **MHA 的manage node服务监控框架，方便进行MySQL的水平扩展高可用性保证，面向后续集群化管理显著提高运维管理效率**
   
   
 #### 参考资料
 * [Mysql-MHA-高可用方案介绍以及配置-简单VIP方案](https://zhuanlan.zhihu.com/p/111668223)
 * [MHA实现MySQL主从自动在线切换功能](https://blog.csdn.net/OH_ON/article/details/78820183?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase) 
 * [使用MHA实现MySQL主从复制高可用](https://www.cnblogs.com/xuanzhi201111/p/4231412.html)
+* [MHA实现mysql8主从故障切换](https://blog.csdn.net/qq_37369726/article/details/104462513)
