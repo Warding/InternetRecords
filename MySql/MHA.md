@@ -42,4 +42,4 @@
   
   
 #### 参考资料
-* <https://zhuanlan.zhihu.com/p/111668223>
+* <https://zhuanlan.zhihu.com/p/111668223> Mysql-MHA-高可用方案介绍以及配置-简单VIP方案
