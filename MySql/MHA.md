@@ -42,4 +42,5 @@
   
   
 #### 参考资料
-* <https://zhuanlan.zhihu.com/p/111668223> Mysql-MHA-高可用方案介绍以及配置-简单VIP方案
+* [Mysql-MHA-高可用方案介绍以及配置-简单VIP方案](https://zhuanlan.zhihu.com/p/111668223)
+* MHA实现MySQL主从自动在线切换功能(https://blog.csdn.net/OH_ON/article/details/78820183?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase)
