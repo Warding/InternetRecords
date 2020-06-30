@@ -1,6 +1,6 @@
 # 日常技术内容梳理汇总
 ### 集锦有以下内容
-- MySQL
+- [MySQL](https://github.com/Warding/Records/tree/master/MySql)
 - Redis
 - Clickhouse
 - Linux
