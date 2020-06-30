@@ -22,7 +22,7 @@
   
 #### MHA的实现原理
 ***
-![](https://huaban.com/pins/3263072879/)
+![](http://ww1.sinaimg.cn/large/005Uq6NBly1ggal0okj6xj30gq0awtbf.jpg)
 #### 概念解析
 *** 
 1. HA（High Availability)
