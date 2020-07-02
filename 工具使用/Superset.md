@@ -10,18 +10,19 @@
 ***
 1. 安装python3以上 (网上教程一堆，请自行搜索，后面自己也计划汇总一版流程),**以下安装过程使用的均是python3**
 2. 安装容器工具，建议直接按照以下指令顺序执行就好
+```
     # yum upgrade python-setuptools
     # yum install gcc gcc-c++ libffi-devel python-devel python-pip python-wheel openssl-devel cyrus-sasl-devel openldap-devel
     # pip3 install cryptography
     # pip3 install virtualenv
-    
+ ```  
 3. 新建一个容器空间进行操作，（网上一堆的教程都是将superset安装在容器之中，可能是为了环境隔离吧，因为中间需要使用的第三方脚本还是很多的，避免影响了原始业务系统环境吧）
     ```
     # python3 -m venv venv  -- 新建一个名为venv的容器空间，同时也会新建在当前目录下新建一个venv的文件夹，请提前切换好工作文件夹
     # .  venv/bin/activate  -- 进入venv的容器环境
     # pip3 install superset -- 容器环境下安装superset
     ```
-    **以下是重点，最多坑的地方，因为superset的运行依赖很多第三方库代码，所以安装python的依赖包并保证完整性很费事，有人整理了一个文档将这些依赖包进行汇总，下载此文档后，在本地按照文件安装依赖包就好，我将依赖包的汇总文档整理到了github,用以下指令下载**
+    ---以下是重点，最多坑的地方，因为superset的运行依赖很多第三方库代码，所以安装python的依赖包并保证完整性很费事，有人整理了一个文档将这些依赖包进行汇总，下载此文档后，在本地按照文件安装依赖包就好，我将依赖包的汇总文档整理到了github,用以下指令下载
     ```
     # wget https://github.com/Warding/InternetRecords/blob/master/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/superset_requirements.txt
     # pip3 install -r superset_requirements.txt  -- 安装依赖包
