@@ -27,7 +27,9 @@ GitHub：https://github.com/Warding/InternetRecords
 
 博客园： https://www.cnblogs.com/shixingchensky
 
+简书： https://www.jianshu.com/u/27101b98c3ee 
 
+CSDN： https://blog.csdn.net/qq_33784368
 
 # 共勉
 ***
