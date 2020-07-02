@@ -7,7 +7,12 @@
 - Redis
 
 - Clickhouse
+
 - Linux
+
+- 工具使用
+  
+  - [linux安装superset]()
 
 
 # MyAll
