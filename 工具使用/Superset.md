@@ -1,4 +1,4 @@
-## Centos 安装superset
+## linux 安装superset
 ***
 公司数据分析人员需要将日常监控分析数据进行可视化，在踩了一些坑之后，终于在业务环境中搭建成功superet,后续复现两次流程也是成功的，分享一波。。。
 
@@ -22,11 +22,11 @@
     **以下是重点，最多坑的地方，因为superset的运行依赖很多第三方库代码，所以安装python的依赖包并保证完整性很费事，有人整理了一个文档将这些依赖包进行汇总，下载此文档后，在本地按照文件安装依赖包就好，我将依赖包的汇总文档整理到了github,用以下指令下载**
     # wget https://github.com/Warding/InternetRecords/blob/master/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/superset_requirements.txt
     # pip3 install -r superset_requirements.txt  -- 安装依赖包
-    # superset db upgrade                        -- 
+    # superset db upgrade                        -- 初始化db环境
     # export FLASK_APP=superset                  --账户设定
     # flask fab create-admin                     --创建账户按提示输入账密就好
     # superset load_examples                     --下载样例数据，可不执行
-    # superset init                              --环境初始化
+    # superset init                              --superset环境初始化
     # superset run -p 8088 -h 192.168.2.1 --with-threads  -- superset 启动（这里面我指定了端口和IP，分别是-p 和 -h 参数，建议指定成自己的服务器IP和某个端口，网页访问的时候，**还需要将这个端口对外开放，不然你本地登录网页访问会无法成功**）
     使用：输入上面的IP和端口对应的网址就行 http://192.168.2.1:8088/，   登录后输入刚刚建立的账密就好
     
