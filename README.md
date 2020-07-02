@@ -12,7 +12,7 @@
 
 - 工具使用
   
-  - [linux安装superset]()
+  - [linux安装superset](https://github.com/Warding/InternetRecords/blob/master/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/Superset.md)
 
 
 # MyAll
