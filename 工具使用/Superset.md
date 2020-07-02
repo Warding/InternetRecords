@@ -16,10 +16,13 @@
     # pip3 install virtualenv
     
 3. 新建一个容器空间进行操作，（网上一堆的教程都是将superset安装在容器之中，可能是为了环境隔离吧，因为中间需要使用的第三方脚本还是很多的，避免影响了原始业务系统环境吧）
+    ```
     # python3 -m venv venv  -- 新建一个名为venv的容器空间，同时也会新建在当前目录下新建一个venv的文件夹，请提前切换好工作文件夹
     # .  venv/bin/activate  -- 进入venv的容器环境
     # pip3 install superset -- 容器环境下安装superset
+    ```
     **以下是重点，最多坑的地方，因为superset的运行依赖很多第三方库代码，所以安装python的依赖包并保证完整性很费事，有人整理了一个文档将这些依赖包进行汇总，下载此文档后，在本地按照文件安装依赖包就好，我将依赖包的汇总文档整理到了github,用以下指令下载**
+    ```
     # wget https://github.com/Warding/InternetRecords/blob/master/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/superset_requirements.txt
     # pip3 install -r superset_requirements.txt  -- 安装依赖包
     # superset db upgrade                        -- 初始化db环境
@@ -29,12 +32,13 @@
     # superset init                              --superset环境初始化
     # superset run -p 8088 -h 192.168.2.1 --with-threads  -- superset 启动（这里面我指定了端口和IP，分别是-p 和 -h 参数，建议指定成自己的服务器IP和某个端口，网页访问的时候，**还需要将这个端口对外开放，不然你本地登录网页访问会无法成功**）
     使用：输入上面的IP和端口对应的网址就行 http://192.168.2.1:8088/，   登录后输入刚刚建立的账密就好
+    ```
     
 ### tips
 ***
 * 出现superset 使用问题，比如缺失什么Python的第三方依赖库，请一定要在容器空间内安装所需的依赖包，例如需要连接mysql，你需要进入venv容器下进行安装pip3 install pymysql，然后需要重启superset
 * 退出容器命令 deactivate
-* 为避免出现关闭shell窗口导致superset无故退出，建议在容器下nohup 启动superset ，# nohup superset run -p 8088 -h 192.168.2.1 --with-threads &
+* 为避免出现关闭shell窗口导致superset无故退出，建议在容器下nohup 启动superset ,`# nohup superset run -p 8088 -h 192.168.2.1 --with-threads &`
    
 ### 小结
 ***
