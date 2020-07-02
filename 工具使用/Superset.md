@@ -4,18 +4,18 @@
 
 ### 业务环境说明
 ***
-    * 操作系统：centos 7
-    * python 3.6
+* 操作系统：centos 7
+* python 3.6
 ### 安装步骤简介和重点
 ***
-    1. 安装python3以上 (网上教程一堆，请自行搜索，后面自己也计划汇总一版流程),**以下安装过程使用的均是python3**
-    2. 安装容器工具，建议直接按照以下指令顺序执行就好
+1. 安装python3以上 (网上教程一堆，请自行搜索，后面自己也计划汇总一版流程),**以下安装过程使用的均是python3**
+2. 安装容器工具，建议直接按照以下指令顺序执行就好
     # yum upgrade python-setuptools
     # yum install gcc gcc-c++ libffi-devel python-devel python-pip python-wheel openssl-devel cyrus-sasl-devel openldap-devel
     # pip3 install cryptography
     # pip3 install virtualenv
     
-    3. 新建一个容器空间进行操作，（网上一堆的教程都是将superset安装在容器之中，可能是为了环境隔离吧，因为中间需要使用的第三方脚本还是很多的，避免影响了原始业务系统环境吧）
+3. 新建一个容器空间进行操作，（网上一堆的教程都是将superset安装在容器之中，可能是为了环境隔离吧，因为中间需要使用的第三方脚本还是很多的，避免影响了原始业务系统环境吧）
     # python3 -m venv venv  -- 新建一个名为venv的容器空间，同时也会新建在当前目录下新建一个venv的文件夹，请提前切换好工作文件夹
     # .  venv/bin/activate  -- 进入venv的容器环境
     # pip3 install superset -- 容器环境下安装superset
@@ -32,9 +32,9 @@
     
 ### tips
 ***
-   * 出现superset 使用问题，比如缺失什么Python的第三方依赖库，请一定要在容器空间内安装所需的依赖包，例如需要连接mysql，你需要进入venv容器下进行安装pip3 install pymysql，然后需要重启superset
-   * 退出容器命令 deactivate
-   * 为避免出现关闭shell窗口导致superset无故退出，建议在容器下nohup 启动superset ，# nohup superset run -p 8088 -h 192.168.2.1 --with-threads &
+* 出现superset 使用问题，比如缺失什么Python的第三方依赖库，请一定要在容器空间内安装所需的依赖包，例如需要连接mysql，你需要进入venv容器下进行安装pip3 install pymysql，然后需要重启superset
+* 退出容器命令 deactivate
+* 为避免出现关闭shell窗口导致superset无故退出，建议在容器下nohup 启动superset ，# nohup superset run -p 8088 -h 192.168.2.1 --with-threads &
    
 ### 小结
 ***
