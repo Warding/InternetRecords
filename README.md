@@ -9,6 +9,8 @@
   - [MHA高可用框架](https://github.com/Warding/InternetRecords/blob/master/MySql/MHA.md)
   
 - Redis
+ 
+  - [linux安装Redis](https://github.com/Warding/InternetRecords/blob/master/MySql/MySql_install.md)
 
 - Clickhouse
 
