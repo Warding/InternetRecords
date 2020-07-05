@@ -10,7 +10,7 @@
   
 - Redis
  
-  - [linux安装Redis](https://github.com/Warding/InternetRecords/blob/master/MySql/MySql_install.md)
+  - [linux安装Redis](https://github.com/Warding/InternetRecords/blob/master/Redis/redis_install.md)
 
 - Clickhouse
 
