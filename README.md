@@ -2,7 +2,9 @@
 ***
 ### 类别
 ***
-- [MySQL](https://github.com/Warding/Records/tree/master/MySql)
+- MySQL
+
+  - [linux安装MySql](https://github.com/Warding/InternetRecords/blob/master/MySql/MySql_install.md)
 
   - [MHA高可用框架](https://github.com/Warding/InternetRecords/blob/master/MySql/MHA.md)
   
