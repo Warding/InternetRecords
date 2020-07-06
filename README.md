@@ -8,11 +8,15 @@
 
   - [MHA高可用框架](https://github.com/Warding/InternetRecords/blob/master/MySql/MHA.md)
   
+  - [MySql表碎片相关](https://github.com/Warding/InternetRecords/blob/master/MySql/Mysql_table_%E8%A1%A8%E7%A2%8E%E7%89%87%E7%9B%B8%E5%85%B3.md)
+  
 - Redis
  
   - [linux安装Redis](https://github.com/Warding/InternetRecords/blob/master/Redis/redis_install.md)
 
 - Clickhouse
+
+  - [linux安装clickhouse](https://github.com/Warding/InternetRecords/blob/master/Redis/redis_install.md)
 
 - Linux
 
