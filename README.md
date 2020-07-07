@@ -10,9 +10,13 @@
   
   - [MySql表碎片相关](https://github.com/Warding/InternetRecords/blob/master/MySql/Mysql_table_%E8%A1%A8%E7%A2%8E%E7%89%87%E7%9B%B8%E5%85%B3.md)
   
+  - 表存储方案小议
+  
+  - MySQL Error log过滤
+  
 - Redis
  
-  - [linux安装Redis](https://github.com/Warding/InternetRecords/blob/master/Redis/redis_install.md)
+  - [linux安装单机Redis](https://github.com/Warding/InternetRecords/blob/master/Redis/redis_install.md)
 
 - Clickhouse
 
@@ -41,6 +45,12 @@ GitHub：https://github.com/Warding/InternetRecords
 简书： https://www.jianshu.com/u/27101b98c3ee 
 
 CSDN： https://blog.csdn.net/qq_33784368
+
+阿里云开发者社区： https://developer.aliyun.com/my?spm=a2c6h.13148508.0.0.463f4f0e5gNCnG#/article?_k=9379m1
+
+今日头条： https://www.toutiao.com/c/user/63636305379/#mid=1671204966893580
+
+
 
 # 共勉
 ***
