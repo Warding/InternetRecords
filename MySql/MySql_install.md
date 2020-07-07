@@ -26,7 +26,7 @@ cd Percona-Server-8.0.16-7  -- 查看文件夹内容是否完整
 mv Percona-Server-8.0.16-7 mysql
 ```
 
-3： 程序账户管理 -- 添加mysql 用户组
+3： 程序账户设置 -- 添加mysql 用户组
 
 `groupadd -r mysql && useradd -r -g mysql -s /bin/false -M mysql`
 
@@ -38,7 +38,27 @@ chown -R mysql:mysql /usr/local/mysql/ && touch /data2/mysql/5306/log/error.log
 chown -R mysql:mysql /data2/mysql/ && chmod -R go-rwx /data2/mysql/
 ```
 
-5:  
+5:  将程序的相关配置写入系统环境 - 将mysql相关命令配置成系统指令
+
+`echo -e '\n\nexport PATH=/usr/local/mysql/bin:$PATH\n' >> /etc/profile && source /etc/profile` 
+
+6: 程序配置档修改  -- 配置mysql conf文档
+
+7： 启动程序
+
+```
+/usr/local/mysql/bin/mysqld --defaults-file=/data2/mysql/5306/conf/my_5306.cnf --initialize-insecure --user=mysql  --初始化mysql 环境，8.0初始化默认root登录无密码
+
+mysqld_safe --defaults-file=/data2/mysql/5306/conf/my_5306.cnf &  -- 开启mysql
+```
+
+8：测试使用
+
+```
+mysql -S /data2/mysql/5306/mysql_5306.sock -h localhost -u root -p  -- Z直接回车登录，刚初始化设置root 无密码登录
+ALTER USER USER() IDENTIFIED BY 'XXXX';  -- 修改root密码
+```
+
 
 #### 配置档
 
