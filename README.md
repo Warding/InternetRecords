@@ -13,6 +13,8 @@
   
   - MySQL Error log过滤
   
+  - MySql binlog server搭建
+  
 - Redis
  
   - [linux安装单机Redis](https://github.com/Warding/InternetRecords/blob/master/Redis/redis_install.md)
