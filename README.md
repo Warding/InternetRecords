@@ -15,6 +15,10 @@
   
   - MySql binlog server搭建
   
+  - MySql 索引及其使用
+  
+  - MySQL 的锁相关
+  
 - Redis
  
   - [linux安装单机Redis](https://github.com/Warding/InternetRecords/blob/master/Redis/redis_install.md)
@@ -22,6 +26,12 @@
 - Clickhouse
 
   - [linux安装clickhouse](https://github.com/Warding/InternetRecords/blob/master/Redis/redis_install.md)
+  
+  - ClickHouse 小议
+  
+- TiDB
+
+  - TiDB总览
 
 - Linux
 
