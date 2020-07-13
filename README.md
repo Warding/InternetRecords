@@ -19,6 +19,8 @@
   
   - MySQL 的锁相关
   
+  - MySQL 主从复制搭建
+  
 - Redis
  
   - [linux安装单机Redis](https://github.com/Warding/InternetRecords/blob/master/Redis/redis_install.md)
