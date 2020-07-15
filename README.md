@@ -19,7 +19,7 @@
   
   - MySQL 的锁相关
   
-  - MySQL 主从复制搭建
+  - [MySQL 主从复制搭建--库复制搭建](https://github.com/Warding/InternetRecords/blob/master/MySql/%E4%B8%BB%E4%BB%8E%E5%A4%8D%E5%88%B6%E6%90%AD%E5%BB%BA.md)
   
 - Redis
  
