@@ -39,25 +39,25 @@
 
 - 分布式
  
- - k8s
+  - k8s
  
- - Docker
+  - Docker
  
- - ZooKeeper
+  - ZooKeeper
 
 - 大数据平台
 
- - HDFS
+  - HDFS
  
- - Hive
+  - Hive
  
- - HBase
+  - HBase
  
- - Spark
+  - Spark
  
- - Flink
+  - Flink
  
- - MQ
+  - MQ
 
 - 云相关
 
