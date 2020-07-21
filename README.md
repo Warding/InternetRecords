@@ -38,8 +38,26 @@
 - Linux
 
 - 分布式
+ 
+ - k8s
+ 
+ - Docker
+ 
+ - ZooKeeper
 
 - 大数据平台
+
+ - HDFS
+ 
+ - Hive
+ 
+ - HBase
+ 
+ - Spark
+ 
+ - Flink
+ 
+ - MQ
 
 - 云相关
 
