@@ -21,6 +21,8 @@
   
   - [MySQL 主从复制搭建--库复制搭建](https://github.com/Warding/InternetRecords/blob/master/MySql/%E4%B8%BB%E4%BB%8E%E5%A4%8D%E5%88%B6%E6%90%AD%E5%BB%BA.md)
   
+  - MySQL 理论梳理
+  
 - Redis
  
   - [linux安装单机Redis](https://github.com/Warding/InternetRecords/blob/master/Redis/redis_install.md)
@@ -58,6 +60,12 @@
   - Flink
  
   - MQ
+  
+ - 架构
+ 
+  - prometheus 监控体系
+   
+   - prometheus 监控进阶
 
 - 云相关
 
