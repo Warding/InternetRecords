@@ -63,9 +63,9 @@
   
  - 架构
  
-  - prometheus 基础监控体系
+    - prometheus 基础监控体系
    
-    - prometheus 监控进阶
+      - prometheus 监控进阶
 
 - 云相关
 
